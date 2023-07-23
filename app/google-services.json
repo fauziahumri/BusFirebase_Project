@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200708141908",
+    "project_id": "buss-40e78",
+    "storage_bucket": "buss-40e78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200708141908:android:91117670ff4aa7ae058ec1",
+        "android_client_info": {
+          "package_name": "com.pnj.bus_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200708141908-bqlce52qsaevh5hd8vllf9ebp0gots96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnUdXv1aKG2CG6RXC52FqXBkTfC542HK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200708141908-bqlce52qsaevh5hd8vllf9ebp0gots96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
