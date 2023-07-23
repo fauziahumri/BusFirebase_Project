@@ -121,4 +121,14 @@ class AddBusActivity : AppCompatActivity() {
                 }
             }
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQ_CAM && resultCode == RESULT_OK) {
+            val imageBitmap = data?.extras?.get("data") as Bitmap
+            dataGambar = imageBitmap
+            binding.BtnImgBus.setImageBitmap(imageBitmap)
+        }
+    }
+
 }

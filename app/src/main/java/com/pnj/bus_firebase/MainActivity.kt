@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         load_data()
 
+
         binding.btnAddPenumpang.setOnClickListener {
             val intentMain = Intent(this, AddPenumpangActivity::class.java)
             startActivity(intentMain)
@@ -103,6 +104,7 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
     }
 
     private fun load_data() {
