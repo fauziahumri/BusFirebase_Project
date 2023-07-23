@@ -12,13 +12,13 @@
         android:theme="@style/Theme.Bus_firebase"
         tools:targetApi="31">
         <activity
-            android:name=".EditBusActivity"
+            android:name=".bus.BusActivity"
             android:exported="false" />
         <activity
-            android:name=".AddBusActivity"
+            android:name=".bus.AddBusActivity"
             android:exported="false" />
         <activity
-            android:name=".BusActivity"
+            android:name=".bus.EditBusActivity"
             android:exported="false" />
         <activity
             android:name=".penumpang.EditPenumpangActivity"
@@ -43,12 +43,6 @@
         </activity>
         <activity
             android:name=".auth.SettingsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".bus.AddBusActivity"
-            android:exported="false" />
-        <activity
-            android:name=".bus.EditBusActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
