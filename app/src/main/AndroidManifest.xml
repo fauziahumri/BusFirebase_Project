@@ -17,9 +17,9 @@
         <activity
             android:name=".bus.AddBusActivity"
             android:exported="false" />
-        <activity
-            android:name=".bus.EditBusActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".bus.EditBusActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".penumpang.EditPenumpangActivity"
             android:exported="false" />

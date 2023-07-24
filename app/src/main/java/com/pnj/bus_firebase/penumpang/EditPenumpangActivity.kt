@@ -91,6 +91,7 @@ class EditPenumpangActivity : AppCompatActivity() {
             binding.RdnEditJKP.isChecked = true
         }
 
+
         val curr_penumpang = Penumpang(nik, nama, tgl_berangkat, tujuan, jenis_kelamin)
         return arrayOf(year, month, day, curr_penumpang)
     }

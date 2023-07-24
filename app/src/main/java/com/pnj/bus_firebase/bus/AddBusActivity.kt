@@ -121,7 +121,6 @@ class AddBusActivity : AppCompatActivity() {
                 }
             }
     }
-
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQ_CAM && resultCode == RESULT_OK) {
@@ -130,5 +129,6 @@ class AddBusActivity : AppCompatActivity() {
             binding.BtnImgBus.setImageBitmap(imageBitmap)
         }
     }
+
 
 }

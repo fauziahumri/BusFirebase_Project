@@ -39,16 +39,16 @@ class BusAdapter(private val busList: ArrayList<Bus>) :
         holder.nama.text = bus.nama
         holder.jenis_bus.text = bus.jenis_bus
 
-        holder.itemView.setOnClickListener{
-            activity = it.context as AppCompatActivity
-            activity.startActivity(Intent(activity, EditBusActivity::class.java).apply {
-                putExtra("plat", bus.plat.toString())
-                putExtra("nama", bus.nama.toString())
-                putExtra("tgl_produksi", bus.tgl_produksi.toString())
-                putExtra("jenis_bus", bus.jenis_bus.toString())
-                putExtra("service", bus.service.toString())
-            })
-        }
+//        holder.itemView.setOnClickListener{
+//            activity = it.context as AppCompatActivity
+//            activity.startActivity(Intent(activity, EditBusActivity::class.java).apply {
+//                putExtra("plat", bus.plat.toString())
+//                putExtra("nama", bus.nama.toString())
+//                putExtra("tgl_produksi", bus.tgl_produksi.toString())
+//                putExtra("jenis_bus", bus.jenis_bus.toString())
+//                putExtra("service", bus.service.toString())
+//            })
+//        }
         val  storageRef = FirebaseStorage.getInstance().reference.child("img_pasien/${bus.plat}_${bus.nama}.jpg")
         val localfile = File.createTempFile("tempImage", "jpg")
         storageRef.getFile(localfile).addOnSuccessListener {
